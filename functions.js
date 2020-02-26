@@ -41,3 +41,37 @@ NOTE //Create a function that takes a name and returns a greeting in the form of
 // const helloName = name => `Hello ${name}!`
 
 // helloName("Gerald")
+
+NOTE //Write a function to reverse an array.
+
+// function reverse(arr) {
+// 	arr.reverse()
+// 	return arr
+// }
+// reverse([1, 2, 3, 4])
+
+// //OR
+
+// function reverse(arr) {
+// 	let newArr = [];
+// 	for (let i = arr.length -1; i > -1; i--) {
+// 		newArr.push(arr[i]);
+// 	}
+	
+// 	console.log(newArr);
+// 	return newArr;
+// }
+// reverse([1, 2, 3, 4])
+
+NOTE //Create a function that searches for the index of a given item in an array. If the item is present, 
+//it should return the index, otherwise, it should return -1.
+
+// function search(arr, item) {
+// 	for(let i=0; i<arr.length; i++){
+// 		if(arr[i] == item){
+// 			return i
+// 		}
+// 	}
+// 	return -1
+// }
+// search([1, 2, 3, 4], 3)
