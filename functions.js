@@ -88,3 +88,12 @@ NOTE //Create a function that takes in a current mood and return a sentence in t
 // }
 // }
 // moodToday("sad")
+
+NOTE //Create a function that accepts an array and returns the last item in the array.
+
+// function getLastItem(arr) {
+// 	for(let i = 0; i < arr.length; i++) {
+// 		return arr[arr.length - 1]
+// 	}
+// }
+// getLastItem(["cat", "dog", "duck"])
