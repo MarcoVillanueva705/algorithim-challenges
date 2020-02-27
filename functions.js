@@ -75,3 +75,16 @@ NOTE //Create a function that searches for the index of a given item in an array
 // 	return -1
 // }
 // search([1, 2, 3, 4], 3)
+
+NOTE //Create a function that takes in a current mood and return a sentence in the following format: 
+//"Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neutral".
+
+//function moodToday(mood) {
+// if(mood){
+//     return `Today, I am feeling ${mood}`
+// }
+// else {
+//     return `Today, I am feeling neutral`
+// }
+// }
+// moodToday("sad")
