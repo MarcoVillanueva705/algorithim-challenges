@@ -107,3 +107,14 @@ NOTE //In this challenge, a farmer is asking you to tell him how many legs can b
 // 	return totalLegs;
 // }
 // animals(2, 3, 5)
+
+NOTE //Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
+
+// function isEvenOrOdd(num) {
+// 	if(num % 2 == 0) {
+// 		return 'even'
+// 	}
+// 	return 'odd'
+// }
+// isEvenOrOdd(35)
+
