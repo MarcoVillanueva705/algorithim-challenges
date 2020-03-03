@@ -144,3 +144,13 @@ NOTE //Write a function to check if an array contains a particular number.
 // 			return false
 // }
 // check([1, 1, 2, 1, 1], 3)
+
+NOTE //Create a function which takes in a sentence str and a string of characters 
+//chars and return the sentence but with all the specified characters removed.
+
+// function stripSentence(str, chars) {
+// 	return str.split('') --returns stacy,stands,on,stilts,saturdays
+// 		.filter(x => !chars.includes(x))"--removes "s" from each split string
+// 		.join('');--string is now 'tacy tand on tilt aturday
+// }
+// stripSentence("stacy stands on stilts saturdays", "s")
