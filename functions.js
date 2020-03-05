@@ -200,3 +200,17 @@ NOTE //Create a function that takes an array of non-negative numbers and strings
 //     return newArr;
 //   }
 //   filterArray([1, "r", "a", "b"])
+
+NOTE //Create a function that takes a string and returns a string in which each character is repeated once.
+
+// function doubleChar(str) {
+//     let newStr = ''
+//     for (let i = 0; i < str.length; i++) { The String object's charAt() method returns a new string consisting 
+//                                            of the single UTF-16 code unit located at the specified offset into the string
+//       newStr += str.charAt(i) + str.charAt(i) 
+//     }
+//     return newStr
+//   }
+//   doubleChar("String")
+
+//
