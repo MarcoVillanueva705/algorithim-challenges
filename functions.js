@@ -186,3 +186,17 @@ NOTE //Write a program that prints the numbers from 1 to 20. But for multiples o
 //         console.log(i);
 
 // }
+
+NOTE //Create a function that takes an array of non-negative numbers and strings and return a new 
+//array without the strings.
+
+// function filterArray(arr) {
+//     var newArr = [];
+//     for(var i = 0; i < arr.length; i++) {
+//       if(typeof arr[i] == "number") {
+//         newArr.push(arr[i]);
+//       }
+//     }
+//     return newArr;
+//   }
+//   filterArray([1, "r", "a", "b"])
