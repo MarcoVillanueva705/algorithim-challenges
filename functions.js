@@ -193,7 +193,7 @@ NOTE //Create a function that takes an array of non-negative numbers and strings
 // function filterArray(arr) {
 //     var newArr = [];
 //     for(var i = 0; i < arr.length; i++) {
-//       if(typeof arr[i] == "number") {
+//       if(typeof arr[i] == "number") { --typeof operator returns a string indicating the type of the unevaluated operand
 //         newArr.push(arr[i]);
 //       }
 //     }
