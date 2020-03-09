@@ -220,3 +220,12 @@ NOTE //Create a function that takes an object argument sizes (contains width, le
 // 	return sizes.width * sizes.length * sizes.height
 // }
 // volumeOfBox({ width: 4, length: 2, height: 2 })
+
+NOTE //Create a function that takes an array of words and transforms it into an array of each word's length.
+
+//function wordLengths(arr) {
+// 	const result = arr.map(word => word.length++); //The map() method creates a new array populated with 
+//                                                  the results of calling a provided function on every element in the calling array.
+// 	return result
+// }
+// wordLengths(["Halloween", "Thanksgiving", "Christmas"])
