@@ -213,4 +213,10 @@ NOTE //Create a function that takes a string and returns a string in which each 
 //   }
 //   doubleChar("String")
 
-//
+NOTE //Create a function that takes an object argument sizes (contains width, length, height keys) and returns the 
+// of the box.
+
+//function volumeOfBox(sizes) {
+// 	return sizes.width * sizes.length * sizes.height
+// }
+// volumeOfBox({ width: 4, length: 2, height: 2 })
