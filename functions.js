@@ -229,3 +229,12 @@ NOTE //Create a function that takes an array of words and transforms it into an 
 // 	return result
 // }
 // wordLengths(["Halloween", "Thanksgiving", "Christmas"])
+
+NOTE //Create a function that takes an array and a string as arguments and return the index of the string.
+
+// function find_index(arr, str) {
+// 	return arr.indexOf(str)
+	
+// }
+// find_index(["Red", "blue", "Blue", "Green"], "blue")
+
