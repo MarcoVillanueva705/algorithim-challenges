@@ -238,3 +238,10 @@ NOTE //Create a function that takes an array and a string as arguments and retur
 // }
 // find_index(["Red", "blue", "Blue", "Green"], "blue")
 
+NOTE //Write a function that converts an object into an array, where each element represents a key-value pair.
+
+// function toArray(obj) {
+// 	return Object.entries(obj)//Object.entries() returns an array whose elements are arrays corresponding to 
+//                              the enumerable string-keyed property [key, value] pairs found directly upon object
+// }
+// toArray({ a: 1, b: 2 })
