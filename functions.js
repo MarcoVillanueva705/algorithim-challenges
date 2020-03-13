@@ -245,3 +245,15 @@ NOTE //Write a function that converts an object into an array, where each elemen
 //                              the enumerable string-keyed property [key, value] pairs found directly upon object
 // }
 // toArray({ a: 1, b: 2 })
+
+NOTE //Create a function that takes an object and returns the keys and values as separate arrays.
+
+// function keysAndValues(obj) {
+// 	let arr1 = [], arr2 = []
+// 	for(let key in obj) {
+// 		arr1.push(key)
+// 		arr2.push(obj[key])
+// }
+// 	return [arr1,arr2]
+// }
+// keysAndValues({ a: "Cheese", b: "Grapes", c: "Figs" })
