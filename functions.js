@@ -257,3 +257,13 @@ NOTE //Create a function that takes an object and returns the keys and values as
 // 	return [arr1,arr2]
 // }
 // keysAndValues({ a: "Cheese", b: "Grapes", c: "Figs" })
+
+NOTE //Create a function that concatenates n input arrays, where n is variable.
+
+// function concat(...args) { //The flat() method creates a new array with all sub-array elements concatenated into 
+//                              it recursively up to the specified depth.
+// 	return args.flat()
+// }
+// concat([1, 2], [3, 4])
+
+
