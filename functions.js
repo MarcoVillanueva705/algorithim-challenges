@@ -279,3 +279,10 @@ NOTE //Write a function that converts an object into an array of keys and values
 //   B: 2,
 //   C: 3
 // })
+
+NOTE //Create a function that takes a base number and an exponent number and returns the calculation.
+
+// function calculateExponent(num, exp) {
+// 	return Math.pow(num, exp)  The Math.pow() function returns the base to the exponent power, that is, baseexponent.
+// }
+// calculateExponent(3, 3)
