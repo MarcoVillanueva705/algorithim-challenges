@@ -266,4 +266,16 @@ NOTE //Create a function that concatenates n input arrays, where n is variable.
 // }
 // concat([1, 2], [3, 4])
 
+NOTE //Write a function that converts an object into an array of keys and values.
 
+// function objectToArray(obj) {
+// 	const myArray = Object.entries(obj); The Object.entries() method returns an array of a given object's own 
+//                                      enumerable string-keyed property [key, value] pairs, in the same order 
+//                                      as that provided by a for...in loop. 
+// 	return myArray;
+// }
+// objectToArray({
+//   D: 1,
+//   B: 2,
+//   C: 3
+// })
