@@ -293,4 +293,17 @@ NOTE //Write a function redundant that takes in a string str and returns a funct
 // 	return () => str;
 // }
 
+NOTE //Create a function that takes in a year and returns the correct century.
+
+// function century(year) {
+// 	const century = Math.ceil(year / 100); //The Math.ceil() function always rounds a number up to the next 
+//                                          largest whole number or integer.
+//     console.log(century)
+//     return century !== 21 // ternary operator; if century is not 21, then append 'th' to string interpolated
+                                //'century'; else append 'st'
+// 		? `${century}th century` 
+// 		: `${century}st century`;
+// }
+// century(2001)
+
 
