@@ -129,7 +129,8 @@ NOTE //There is an easy way to assign to array values to the nth index by using 
 NOTE //Given an array of numbers, create a function which returns the same array but with each element's index in the array 
 //added to itself. This means you add 0 to the number at index 0, add 1 to the number at index 1, etc...
 
-// const addIndexes = arr => arr.map((num, idx) => num + idx)
+// const addIndexes = arr => arr.map((num, idx) => num + idx) //The map() method creates a new array populated with the 
+//                                                              results of calling a provided function on every element in the calling array.
 
 // addIndexes([5, 4, 3, 2, 1])
 
@@ -149,8 +150,8 @@ NOTE //Create a function which takes in a sentence str and a string of character
 //chars and return the sentence but with all the specified characters removed.
 
 // function stripSentence(str, chars) {
-// 	return str.split('') --returns stacy,stands,on,stilts,saturdays
-// 		.filter(x => !chars.includes(x))"--removes "s" from each split string
+// 	return str.split('') --returns ['stacy','stands','on','stilts','saturdays']
+// 		.filter(x => !chars.includes(x))--removes "s" from each split string
 // 		.join('');--string is now 'tacy tand on tilt aturday
 // }
 // stripSentence("stacy stands on stilts saturdays", "s")
