@@ -11,3 +11,15 @@
 // }
 // checkEquals([4, 5, 6], [4, 5, 6])
 
+//NOTE Create a function that returns true if a string contains any spaces.
+
+// function hasSpaces(str) {
+// 	if (str.includes(" ")){ //The includes() method determines whether one string may be found within another string, 
+//                          returning true or false as appropriate.
+// 		return true
+// 	}
+// 	return false
+// }
+// hasSpaces("hello")
+
+
