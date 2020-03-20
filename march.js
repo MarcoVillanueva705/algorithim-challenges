@@ -33,3 +33,11 @@
 //     return result
 // }
 // arrayOfMultiples(7, 5)
+
+//NOTE Create a function that takes an array of items and checks if the last item matches the rest of the array.
+
+// function matchLastItem(arr) {
+// 	return arr.pop() == arr.join('') //the last element popped will be the same as what is joined in a string
+// }
+
+// matchLastItem([8, "thunder", true, "8thundertrue"])
