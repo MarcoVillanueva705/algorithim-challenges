@@ -41,3 +41,14 @@
 // }
 
 // matchLastItem([8, "thunder", true, "8thundertrue"])
+
+//NOTE Create a function that takes an object as an argument and returns a string with facts about the city. 
+
+// function cityFacts(city) {
+// 	return `${city.name} has a population of ${city.population} and is situated in ${city.continent}`
+// }
+// cityFacts({
+//   name: "Paris",
+//   population: "2,140,526",
+//   continent: "Europe"
+// }) 
