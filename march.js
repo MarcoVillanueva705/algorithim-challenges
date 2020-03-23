@@ -52,3 +52,17 @@
 //   population: "2,140,526",
 //   continent: "Europe"
 // }) 
+
+//NOTE Write a function that takes an integer i and returns an integer with the integer backwards followed by 
+//the original integer.
+
+// function reverseAndNot(i) {
+// 	return parseInt(i.toString().split('').reverse().join('')+i)
+//toString turns an interger into a string
+//split takes a string and turns it into an array of strings ["1", "2", "3"]
+//reverse takes the array and reverses it ["3","2","1"]
+//join takes separated string elements in an array and joins them ["321"]+i = ["321123"]
+//parseInt returns a string as an interger 321123
+// }
+// reverseAndNot(123)
+
