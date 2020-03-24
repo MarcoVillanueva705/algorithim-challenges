@@ -66,3 +66,25 @@
 // }
 // reverseAndNot(123)
 
+//NOTE Create a function that takes an integer and returns it as an ordinal number. 
+//An Ordinal Number is a number that tells the position of something in a list, such as 1st, 
+//2nd, 3rd, 4th, 5th etc.
+
+// function returnEndOfNumber(num) {
+// 	let res;
+// 	let end = num.toString().slice(-1)//toString turns 1231 into "1231", and .slice gives you the last
+//                                      value in the string, being 1 in this case
+// 	if (end == 1) {
+// 		res = num + '-ST'
+
+// 	} else if (end == 2) {
+// 		res = num + '-ND'
+// 	} else if (end == 3) {
+// 		res = num + '-RD'
+// 	} else if (end > 3) {
+// 		res = num + '-TH'
+// 	}
+// return res
+// }
+// returnEndOfNumber(1231) 
+
