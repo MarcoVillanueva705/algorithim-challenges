@@ -99,7 +99,14 @@
 //return 0.
 
 // function indexMultiplier(arr) {
-// 	return arr.reduce((total, current, index) => total + current * index, 0);
+// 	return arr.reduce((accumulator, current, index) => accumulator + current * index, 0); //accumulator means
+//                                                    total, if the array is empty, return zero; so it goes 1*0(0 is the idx position)=0--
+//                                                     then it carries to the next element 2*1=2 + 0(the accumulator) =2--onto the next                                        
+ //                                                     element 3*2= 6 + 2(the previous accumulator) =8--next element 4*3=12 + 8 = 20--finally
+ //                                                     5*4 = 20 + 20 = 40; reduce basically breaks down the array type into the things you need 
+ //                                                     access
 // }
 //indexMultiplier([1, 2, 3, 4, 5])
+
+
 
