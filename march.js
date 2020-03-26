@@ -88,3 +88,10 @@
 // }
 // returnEndOfNumber(1231) 
 
+//NOTE 
+
+// function calculateExponent(num, exp) {
+// 	return (Math.pow(num, exp))//The Math.pow() function returns the base to the exponent power, that is, baseexponent.
+// }
+// calculateExponent(3, 3)
+
