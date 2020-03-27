@@ -108,5 +108,11 @@
 // }
 //indexMultiplier([1, 2, 3, 4, 5])
 
+//NOTE Create a function that takes in a number as a string n and returns the number without trailing and leading zeros.
+
+// function removeLeadingTrailing(n) {
+// 	return Math.abs(n).toString();//The Math.abs() function returns the absolute value of a number
+// }
+// 	removeLeadingTrailing("03.1400")//returns as "3.14"
 
 
