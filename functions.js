@@ -291,8 +291,10 @@ NOTE //Create a function that takes a base number and an exponent number and ret
 NOTE //Write a function redundant that takes in a string str and returns a function that returns str
 
 // function redundant(str) {
+    // console.log(str)
 // 	return () => str;
 // }
+//redundant("cheerios")
 
 NOTE //Create a function that takes in a year and returns the correct century.
 
