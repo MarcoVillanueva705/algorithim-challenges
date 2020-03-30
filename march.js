@@ -115,4 +115,18 @@
 // }
 // 	removeLeadingTrailing("03.1400")//returns as "3.14"
 
+//NOTE Create a function that takes a word and returns true if the word has two consecutive identical letters.
+
+// function doubleLetters(word) {
+// 	for (let i = 0; i < word.length - 1; i++) {
+//         if(word.charAt(i) === word.charAt(i+1)) {//remain in the 'if' statement lookin for 'true' occurentce;
+                                                    //breaks out once neither element meets the condition;
+                                                    //The String object's charAt() method returns a new string consisting of the single UTF-16 
+                                                    //code unit located at the specified offset into the string.
+//             return true
+//         }         
+//     }
+//     return false
+// }
+// doubleLetters("loop")
 
