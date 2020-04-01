@@ -138,5 +138,17 @@
 // }
 // numArgs("foo", "bar")
 
+//NOTE Create a function that takes in an array (slot machine outcome) and returns true if all elements in the array are identical, 
+//and false otherwise. The array will contain 4 elements.
+
+// function testJackpot(result) {
+//     return new Set(result).size === 1 //Set objects are collections of values. You can iterate through the elements of a set 
+                                        //in insertion order. A value in the Set may only occur once; it is unique in the Set's collection.
+                                        //.size() accessor property returns the number of (unique) elements in a Set object.  So, this only
+                                        //returns new Set as 'true' if there is only 1 unique element throughout the result argument, otherwise
+                                        // 'false'.
+
+// }
+// testJackpot(["&&", "&", "&&&", "&&&&"])
 
 
