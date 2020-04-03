@@ -8,3 +8,10 @@
 // }
 // numberArgs(10, 20, 30, 40, 50)
                                         
+//NOTE
+
+// String.prototype.vreplace = function(vowel) {
+// 	return this.replace(/[aeiou]/gi, vowel);
+// }
+// "cheese casserole".vreplace("o")
+                                
