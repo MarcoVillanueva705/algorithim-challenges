@@ -32,3 +32,13 @@
 // Use else to specify a block of code to be executed, if the same condition is false
 // Use else if to specify a new condition to test, if the first condition is false
 // Use switch to specify many alternative blocks of code to be executed
+
+//NOTE
+
+// function countOnes(i) {
+//     let binaryNum = i.toString(2)
+//     let newNum = Array.of(binaryNum)
+//     let result = newNum.filter(biNum => binNum == 0 )
+//     return result.count++
+//     }
+//     countOnes(100)
