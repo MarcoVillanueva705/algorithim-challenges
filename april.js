@@ -39,6 +39,16 @@
 //     let binaryNum = i.toString(2)
 //     let newNum = Array.of(binaryNum)
 //     let result = newNum.filter(biNum => biNum == 0 )
-//     return result.count++
+//     return result
 //     }
 //     countOnes(100)
+
+// function countOnes(i) {
+//         let binaryNum = i.toString(2)
+//          let newNum = Array.of(binaryNum)
+//         //  let result = newNum.filter(biNum => biNum == 0 )
+//         let newString = newNum.toString()
+//         let result = newString.split()
+//          return result
+//          }
+//          countOnes(100)
