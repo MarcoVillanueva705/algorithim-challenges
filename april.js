@@ -54,9 +54,16 @@
 //          countOnes(100)
 
 //NOTE 
+// Create a function that performs an even-odd transform to an array, n times. Each even-odd transformation:
+// Adds two (+2) to each odd integer.
+// Subtracts two (-2) to each even integer.
 
-function evenOddTransform(arr, n) {
-	return arr.map( x => x % 2 ===0 ? x - 2*n : x + 2*n )
+// function evenOddTransform(arr, n) {
+// 	return arr.map( x => x % 2 ===0 ? x - 2*n : x + 2*n )//map() function takes the arr agrument and creates a 
+                                                        //new array, where each element modulus 2(even number),
+                                                        //if element is even, first ternary arugment is true, so
+                                                        //decrement by 2 for n parameter amount of times, else if odd, 
+                                                        //increment element by 2 for n parameter amount of times,
 
-}
-evenOddTransform([1, 2, 3], 1)
+// }
+// evenOddTransform([1, 2, 3], 1)
