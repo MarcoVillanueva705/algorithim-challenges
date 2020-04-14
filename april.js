@@ -53,4 +53,10 @@
 //          }
 //          countOnes(100)
 
-// S
+//NOTE 
+
+function evenOddTransform(arr, n) {
+	return arr.map( x => x % 2 ===0 ? x - 2*n : x + 2*n )
+
+}
+evenOddTransform([1, 2, 3], 1)
