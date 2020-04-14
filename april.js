@@ -67,3 +67,17 @@
 
 // }
 // evenOddTransform([1, 2, 3], 1)
+
+
+//NOTE Constructor, object instantiation practice
+//You can define a constructor function that you can use to create your objects:
+//You can define a variable containing an instantiation of this object by calling the constructor function:
+
+function Kitten(name, cute, color) {
+    this.name = name,
+    this.cute = cute,
+    this.color = color
+  }
+  let myKitten = new Kitten("Nibbles", true, "white")
+console.log(myKitten)
+
