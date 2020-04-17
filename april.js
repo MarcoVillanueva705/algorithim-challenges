@@ -60,7 +60,7 @@
 
 // function evenOddTransform(arr, n) {
 // 	return arr.map( x => x % 2 ===0 ? x - 2*n : x + 2*n )//map() function takes the arr agrument and creates a 
-                                                        //new array, where each element modulus 2(even number),
+                                                        //new array, where each element (x, in this case) modulus 2(even number),
                                                         //if element is even, first ternary arugment is true, so
                                                         //decrement by 2 for n parameter amount of times, else if odd, 
                                                         //increment element by 2 for n parameter amount of times,
