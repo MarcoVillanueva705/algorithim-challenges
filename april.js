@@ -81,3 +81,9 @@
 //   let myKitten = new Kitten("Nibbles", true, "white")
 // console.log(myKitten)
 
+//NOTE Create a function that returns only strings with unique characters.
+
+function filterUnique(arr) {
+	return arr.filter( str => new Set(str).size === str.length );
+}
+filterUnique(["abb", "abc", "abcdb", "aea", "bbb"])
