@@ -83,7 +83,14 @@
 
 //NOTE Create a function that returns only strings with unique characters.
 
-function filterUnique(arr) {
-	return arr.filter( str => new Set(str).size === str.length );
-}
-filterUnique(["abb", "abc", "abcdb", "aea", "bbb"])
+// function filterUnique(arr) {
+// 	return arr.filter( str => new Set(str).size === str.length ); //The filter() method creates a new array 
+                                                                //with all elements that pass the test implemented by the provided function.
+                                                                //The size accessor property returns the number of (unique) elements in a Set object
+// }
+// filterUnique(["abb", "abc", "abcdb", "aea", "bbb"])
+//returns ["abc"]
+
+//return the filtered array where the str element is a new Set where the size (unique values in the str)
+//is the same as it's length.  "abc" is the only string where it has 3 unique values, and it's length is 
+//also 3
