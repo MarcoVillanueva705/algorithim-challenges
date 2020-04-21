@@ -100,3 +100,7 @@
 //Concatenates "!" to all strings and capitalises them.
 //Changes all boolean values to its opposite.
 
+function changeTypes(arr) {
+	
+}
+changeTypes(["a", 12, true])
