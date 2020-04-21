@@ -94,3 +94,9 @@
 //return the filtered array where the str element is a new Set where the size (unique values in the str)
 //is the same as it's length.  "abc" is the only string where it has 3 unique values, and it's length is 
 //also 3
+
+//NOTE Create a function that changes all the elements in an array as follows:
+///Add 1 to all even integers, nothing to odd integers.
+//Concatenates "!" to all strings and capitalises them.
+//Changes all boolean values to its opposite.
+
