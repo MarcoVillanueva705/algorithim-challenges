@@ -100,7 +100,24 @@
 //Concatenates "!" to all strings and capitalises them.
 //Changes all boolean values to its opposite.
 
-function changeTypes(arr) {
-	
-}
-changeTypes(["a", 12, true])
+// function changeTypes(arr) {
+// 	for (var i = 0; i<arr.length; i++) {
+// 		if (typeof arr[i] == "string") { //typeof operator returns a string indicating the type of the unevaluated operand
+// 			arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].substring(1) + "!";//charAt.toUpperCase takes the element and
+                                                                                //capitalizes the first character, and adds
+                                                                                //through the substring method (returns the 
+                                                                                //part of the string between the start and end indexes)
+                                                                                //appends an "!" right after arr[i]
+// 		}
+// 		else if(typeof arr[i] == "boolean") { 
+// 			arr[i] = !arr[i]; //the "!" flips the boolean
+// 		}
+// 		else if (arr[i] % 2 == 0) { //if arr[i] is even through the modulus 2 operand, add + 1 to arr[!]
+// 			arr[i] += 1;
+// 		}
+// 	}
+// 	return arr;
+
+// }
+// changeTypes(["a", 12, true])
+//ans ["A!"", 13, false]
