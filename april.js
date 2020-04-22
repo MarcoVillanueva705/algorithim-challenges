@@ -109,7 +109,8 @@
                                                                                 //part of the string between the start and end indexes)
                                                                                 //appends an "!" right after arr[i]
 // 		}
-// 		else if(typeof arr[i] == "boolean") { 
+// 		else if(typeof arr[i] == "boolean") { //Use else if to specify a new condition to test, if the first condition is false
+
 // 			arr[i] = !arr[i]; //the "!" flips the boolean
 // 		}
 // 		else if (arr[i] % 2 == 0) { //if arr[i] is even through the modulus 2 operand, add + 1 to arr[!]
