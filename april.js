@@ -122,3 +122,10 @@
 // }
 // changeTypes(["a", 12, true])
 //ans ["A!", 13, false]
+
+//NOTE 
+
+function rev(n) {
+	
+}
+rev(5121)
