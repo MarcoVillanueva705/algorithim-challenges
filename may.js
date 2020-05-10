@@ -7,4 +7,4 @@ afterNYears({
     "Reginald" : 65,
     "Susan" : 33,
     "Julian" : 13
-  }
+  }, 1)
