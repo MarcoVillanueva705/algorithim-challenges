@@ -22,3 +22,12 @@
 //   "Susan" : 34,
 //   "Julian" : 14
 // }
+
+function specialReverse(s, c) {
+	for(let i = 0; i < str.length; i++) {
+		if(str.charAt(i) == c){
+			
+		}
+	}
+}
+specialReverse("first man to walk on the moon", "m")
