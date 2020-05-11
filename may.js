@@ -23,6 +23,8 @@
 //   "Julian" : 14
 // }
 
+//NOTE Write a function that reverses all the words in a sentence that start with a particular letter.
+
 function specialReverse(s, c) {
 	for(let i = 0; i < str.length; i++) {
 		if(str.charAt(i) == c){
