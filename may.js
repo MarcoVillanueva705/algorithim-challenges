@@ -26,10 +26,12 @@
 //NOTE Write a function that reverses all the words in a sentence that start with a particular letter.
 
 function specialReverse(s, c) {
-	for(let i = 0; i < str.length; i++) {
-		if(str.charAt(i) == c){
-			
-		}
+	s = s.split(' ')
+	for(let i in s){
+	  if(s[i].charAt(0) == c){
+		s[i] = s[i].split('').reverse().join('')
+	  }
 	}
-}
+	return s.join(' ')
+   }
 specialReverse("first man to walk on the moon", "m")
