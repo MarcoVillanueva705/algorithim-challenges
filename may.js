@@ -33,10 +33,11 @@ function specialReverse(str, c) {
 	  if(str[i].charAt(0) == c){ //if when iterating over each character, the one at the 0 index (or
 								//the first letter of the string), is the same as c parameter or "m" 
 								//argument
-		str[i] = str[i].split('').reverse().join('')//set str[i] i.e. "man" to "m","a","n" then reverse to
+		str[i] = str[i].split('').reverse().join('')//set str[i] i.e. "man" to a split i.e. "m","a","n" then reverse to
 													//"n","a","m" finally join str[i] to become "nam"
 	  }
 	}
-	return str.join(' ')
+	return str.join(' ')//finally, return str but joined so it looks like one string, not separate strings i.e it
+						//now looks like "first nam to walk on the noom"
    }
 specialReverse("first man to walk on the moon", "m")
