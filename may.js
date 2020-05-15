@@ -33,7 +33,8 @@ function specialReverse(str, c) {
 	  if(str[i].charAt(0) == c){ //if when iterating over each character, the one at the 0 index (or
 								//the first letter of the string), is the same as c parameter or "m" 
 								//argument
-		str[i] = str[i].split('').reverse().join('')
+		str[i] = str[i].split('').reverse().join('')//set str[i] i.e. "man" to "m","a","n" then reverse to
+													//"n","a","m" finally join str[i] to become "nam"
 	  }
 	}
 	return str.join(' ')
