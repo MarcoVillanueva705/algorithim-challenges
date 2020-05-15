@@ -30,7 +30,9 @@ function specialReverse(str, c) {
 	for(let i in str){ //for variable in string; The for...in loop below iterates over all of 
 						//the string's enumerable, non-Symbol properties and logs a string of 
 						//the property names and their values.
-	  if(str[i].charAt(0) == c){
+	  if(str[i].charAt(0) == c){ //if when iterating over each character, the one at the 0 index (or
+								//the first letter of the string), is the same as c parameter or "m" 
+								//argument
 		str[i] = str[i].split('').reverse().join('')
 	  }
 	}
