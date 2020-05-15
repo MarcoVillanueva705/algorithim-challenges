@@ -26,7 +26,7 @@
 //NOTE Write a function that reverses all the words in a sentence that start with a particular letter.
 
 function specialReverse(str, c) {
-	str = str.split(' ')
+	str = str.split(' ')//this turns str to "first", "man", "to", "walk", "on", "the", "moon"
 	for(let i in str){
 	  if(str[i].charAt(0) == c){
 		str[i] = str[i].split('').reverse().join('')
