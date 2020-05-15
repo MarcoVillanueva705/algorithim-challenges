@@ -27,7 +27,9 @@
 
 function specialReverse(str, c) {
 	str = str.split(' ')//this turns str to "first", "man", "to", "walk", "on", "the", "moon"
-	for(let i in str){
+	for(let i in str){ //for variable in string; The for...in loop below iterates over all of 
+						//the string's enumerable, non-Symbol properties and logs a string of 
+						//the property names and their values.
 	  if(str[i].charAt(0) == c){
 		str[i] = str[i].split('').reverse().join('')
 	  }
