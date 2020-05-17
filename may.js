@@ -42,8 +42,8 @@
 //    }
 // specialReverse("first man to walk on the moon", "m")
 
-
-function identicalFilter(arr) {
-	
-}
-identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
+//NOTE //Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).
+// function identicalFilter(arr) {
+//	
+// }
+// identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
