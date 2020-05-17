@@ -41,3 +41,9 @@
 // 						//now looks like "first nam to walk on the noom"
 //    }
 // specialReverse("first man to walk on the moon", "m")
+
+
+function identicalFilter(arr) {
+	
+}
+identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
