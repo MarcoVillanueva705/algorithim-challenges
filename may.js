@@ -56,4 +56,5 @@ function identicalFilter(arr) {
 	    return result;
 }
 identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
+//ans ["aaaaaa", "d", "eeee"]
 
