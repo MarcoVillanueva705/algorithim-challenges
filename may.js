@@ -44,6 +44,8 @@
 
 NOTE //Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).
 function identicalFilter(arr) {
-	
+	let result = arr.filter(char => char === arr[0]);
+
+	    return result;
 }
 identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
