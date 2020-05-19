@@ -43,18 +43,18 @@
 // specialReverse("first man to walk on the moon", "m")
 
 NOTE //Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).
-function identicalFilter(arr) {
-    let result = arr.filter(str => new Set(str).size == 1);//filter() method creates a new array with all elements 
-                                                            //that pass the test implemented by the provided function;
-                                                            //str means for each str in the array, make a new array
-                                                            //Set objects are collections of values you can iterate through;
-                                                            //A value in the Set may only occur once.  Here, new Set(str) means
-                                                            //interate through each string, where the .size accessor property returns 
-                                                            //the number of (unique) elements in a Set object, here the unique elements
-                                                            //in the str's should equal 1
+// function identicalFilter(arr) {
+//     let result = arr.filter(str => new Set(str).size == 1);//filter() method creates a new array with all elements 
+//                                                             //that pass the test implemented by the provided function;
+//                                                             //str means for each str in the array, make a new array
+//                                                             //Set objects are collections of values you can iterate through;
+//                                                             //A value in the Set may only occur once.  Here, new Set(str) means
+//                                                             //interate through each string, where the .size accessor property returns 
+//                                                             //the number of (unique) elements in a Set object, here the unique elements
+//                                                             //in the str's should equal 1
 
-	    return result;
-}
-identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
+// 	    return result;
+// }
+// identicalFilter(["aaaaaa", "bc", "d", "eeee", "xyz"])
 //ans ["aaaaaa", "d", "eeee"]
 
